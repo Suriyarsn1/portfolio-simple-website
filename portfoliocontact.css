@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    padding: 30px;
+}
+
+.block-one {
+    background-color: black;
+    padding: 20px;
+    height: 150px;
+    color: white;
+}
+
+.block-one,
+.block-two,
+.block-three,
+.block-four,
+.block-five {
+    margin-top: 20px;
+}
+
+.block-one__ref,
+.block-two__ref,
+.block-three__ref,
+.block-four__ref,
+.block-five__ref {
+    margin-top: 10px;
+}
+
+.block-one__contact {
+    background-color: rgb(248, 155, 33);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.block-one__title {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.block-one__ref {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.block-three {
+    background-color: rgb(113, 245, 245);
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+    font-size: large;
+
+}
+
+.block-four {
+    background-color: aquamarine;
+    padding: 30px;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.block-five {
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 30px;
+}
+
+.block-five__title,
+.block-five__title1 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.block-four__ref,
+.block-three__ref {
+    list-style-type: none;
+
+
+}
+
+.block-four__ref li,
+.block-three__ref li {
+    margin-top: 10px;
+}
+
+.block-four__ref li p,
+.block-three__ref li p {
+    margin-top: 5px;
+}
+
+.Contact-form__input,
+.Contact-form__textarea,
+.Contact-form__submit {
+    margin-top: 10px;
+
+}
+
+.Contact-form__input {
+    border: none;
+    border-bottom: solid black 1px;
+    padding: 10px;
+}
+
+.Contact-form__textarea {
+    padding: 10px;
+}
+
+.Contact-form__submit {
+    background-color: darkorange;
+    padding: 10px;
+    border: none;
+}
+
+.block-five p a {
+    color: deepskyblue;
+}
